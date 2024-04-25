@@ -6,7 +6,7 @@ from rest_framework.test import APITransactionTestCase
 from authorize.models import User
 
 
-class ExtraCostViewTest(APITransactionTestCase):
+class TranslateViewTest(APITransactionTestCase):
 
     @classmethod
     @pytest.mark.django_db
