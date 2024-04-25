@@ -7,7 +7,7 @@ urlpatterns = [
     path(
         '',
         TokenController.as_view(),
-        name='token_obtain_pair',
+        name='login',
     ),
     path(
         'refresh/',
