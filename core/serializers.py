@@ -11,3 +11,10 @@ class TranslateSerializer(serializers.ModelSerializer):
         extra_kwargs = {'sender_id': {'required': False}}
 
 
+class ChatSerializer(serializers.ModelSerializer):
+
+    class Meta:
+        model = Message
+        fields = ['body', 'sender_id']
+        extra_kwargs = {'sender_id': {'required': False}}
+
